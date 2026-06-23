@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body::-webkit-scrollbar {   
+  display: none;
+}
+.main {
+    width: 100%;
+    display: flex;
+}
+.section1{
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+}
+.section1 img{
+    width: 300px;
+}
+.section1 h1{
+    font-family: "Poppins", sans-serif;
+    color: rgb(1, 25, 86);
+}
+.section1 h4{
+    font-family: "Poppins", sans-serif;
+    color: rgb(95, 103, 136);
+    font-weight: 500;
+}
+.section1 .parts{
+    
+    margin: auto;
+    display: flex;
+    
+}
+.section1 .parts i{
+    color: rgb(1, 25, 86);
+}

@@ -3,10 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UMW VOICE </title>
+    <title>UMW VOICE | Login</title>
     <link rel="icon" type="image/png" href="assets/images/project logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="main">
+        <div class="section1">
+            <img src="assets/images/university logo.png" alt="logo">
+            <h1>University of Mianwali</h1>
+            <h4>STUDENT FEEDBACK &<br>COMPLAINT MANAGMENT SYSTEM</h4>
+            <div class="parts">
+                <i class="fa-regular fa-comment-dots"></i>
+                <div class="p1">
+                    <h4>Share Your Feedback</h4>
+                    <h6>Help us improve our university services and facilities</h6>
+                </div>
+            </div>
+            <div class="parts">
+                 <i class="fa-solid fa-shield-halved"></i>
+                <div class="p1">
+                    <h4>Submit Complaints</h4>
+                    <h6>Report issues and get them resolved effectively</h6>
+                </div>
+
+            </div>
+            <div class="parts">
+                 <i class="fa-solid fa-clipboard-list"></i>
+                <div class="p1">
+                    <h4>Track Your Submissions</h4>
+                    <h6>View the Status of your feedback and complaints</h6>
+                </div>
+
+            </div>
+            <div class="parts">
+                 <i class="fa-solid fa-lock"></i>
+                <div class="p1">
+                    <h4>Secure & Confidental</h4>
+                    <h6>Your identity and feedback are kept safe and secure</h6>
+                </div>
+            </div>
+        </div>
+        <div class="section2">
+            <i class="fa-solid fa-user-lock"></i>
+            <h1>Welcome Back!</h1>
+            <h4>Login to your account to continue</h4>
+            <h4>UNI ID</h4>
+            <form action="">
+                <div class="input">
+                    <span class="icon"><i class="fa-regular fa-user"></i></span>
+                    <input type="text" name="uni_id" placeholder="Enter your UNI ID">
+                </div>
+                <h4>Password</h4>
+                <div class="input">
+                    <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                    <input type="text" name="pasword" placeholder="Enter your pasword">
+                    <i onclick="toggle()" class="fa-regular fa-eye-slash" id="eye" ></i>
+                </div>
+                <button><i class="fa-solid fa-arrow-right-to-bracket"></i> Login</button>
+            </form>
+            <div class="note">
+                <i class="fa-solid fa-circle-info"></i>
+                <h6>If you have not changed the pasword yet, your<span> ID Card number </span>will be used as your password</h6>
+            </div>
+            <h5>Need Help</h5>
+            <div class="contact">
+                <i class="fa-solid fa-headset"></i>
+                <h6>Contact University Administration</h6>
+            </div>
+           
+        </div>
+    </div>
 </body>
 </html>
