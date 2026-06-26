@@ -13,7 +13,8 @@ body::-webkit-scrollbar {
 .section1{
     width: 50%;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 25px;
+    
 }
 .section1 img{
     width: 300px;
@@ -27,12 +28,71 @@ body::-webkit-scrollbar {
     color: rgb(95, 103, 136);
     font-weight: 500;
 }
+.section1 .parent{
+    display:  flex;
+    margin: 20px auto 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+    gap: 4%;
+}
 .section1 .parts{
-    
-    margin: auto;
+    width: 60%;
+    margin:10px auto;
     display: flex;
-    
+    align-items: center;
+    text-align: left;
+    border: 1px solid rgba(1, 25, 86, 0.1);
+    padding: 7px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(1, 25, 86, 0.1);
+
 }
 .section1 .parts i{
     color: rgb(1, 25, 86);
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: rgba(0, 72, 255, 0.1); 
+    margin-right: 10px;
+}
+.section1 .parts h4{
+    color: rgb(1, 25, 86);
+}
+.section1 .parts h6{
+    font-family: "Poppins", sans-serif;
+    color: rgb(95, 103, 136);
+    font-weight: 500;
+}
+.section2{
+    margin-left: 5%;
+    margin-top: 70px;
+    text-align: center;
+}
+.section2 .main_i i{
+    font-size: 30px;
+    padding: 20px;
+    background-color:rgba(0, 72, 255, 0.1); 
+    border-radius: 50%;
+}
+.section2 h2{
+    font-family: "Poppins", sans-serif;
+    color: rgb(1, 25, 86);
+    margin-top: 10px;
+}
+.section2 h4{
+    font-family: "Poppins", sans-serif;
+    color: rgb(95, 103, 136);
+    font-weight: 500;
+}
+.section2 hr{
+    width: 75%;
+    text-align: center;
+    margin-left: 12%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section2 h6{
+    font-family: "Poppins", sans-serif;
+    color: rgb(1, 25, 86);
+    text-align: left;
 }
