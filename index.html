@@ -76,12 +76,12 @@
             <form action="">
                 <div class="input">
                     <span class="icon"><i class="fa-solid fa-user"></i></span>
-                    <input type="text" name="uni_id" placeholder="Enter your UNI ID">
+                    <input type="text" name="uni_id" placeholder="Enter your UNI ID" required>
                 </div>
                 <h6>Password</h6>
                 <div class="input">
                     <span class="icon"><i class="fa-solid fa-lock"></i></span>
-                    <input type="password" name="pasword" placeholder="Enter your pasword">
+                    <input id="password" type="password" name="pasword" placeholder="Enter your pasword" required>
                     <i onclick="toggle()" class="fa-regular fa-eye-slash" id="eye" ></i>
                 </div>
                 <button><i class="fa-solid fa-arrow-right-to-bracket"></i> Login</button>
@@ -98,5 +98,7 @@
            
         </div>
     </div>
+    <script src="toogle_password.js"></script>
+
 </body>
 </html>
