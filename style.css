@@ -11,7 +11,7 @@ body::-webkit-scrollbar {
     display: flex;
 }
 .section1{
-    width: 50%;
+    width: 60%;
     text-align: center;
     margin-top: 25px;
     
@@ -67,6 +67,8 @@ body::-webkit-scrollbar {
     margin-left: 5%;
     margin-top: 70px;
     text-align: center;
+    margin-right: 70px;
+    
 }
 .section2 .main_i i{
     font-size: 30px;
@@ -95,4 +97,178 @@ body::-webkit-scrollbar {
     font-family: "Poppins", sans-serif;
     color: rgb(1, 25, 86);
     text-align: left;
+    margin-left:20px ;
+    margin-top: 20px;
+}
+.section2 .input{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+    border: 1px solid #6c6c6c;
+    border-radius: 5px;
+    padding: 10px;
+    overflow: hidden;
+}
+.section2 .input i {
+  margin-right: 13px;
+  color: #0b3e6a;
+}
+.section2 .input input{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+    
+}
+.section2 button{
+    background-color:rgb(1, 25, 86);
+    width: 93%;
+    color: white;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+}
+.section2 .note{
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+    margin-top: 20px;
+    background-color: rgba(0, 72, 255, 0.1); 
+    border-radius: 10px;
+
+}
+.section2 .note i{
+    color: rgb(1, 25, 86);
+    font-size: 20px;
+    margin: 15px ;
+}
+.section2 .note h6{
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(95, 103, 136);
+    font-weight: 600;
+}
+.section2 .note span{
+    color: rgb(1, 25, 86);
+    font-weight: 800;
+}
+.section2 .contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 8px;
+}
+.section2 .contact h6{
+    margin: 0px;
+    font-weight: 200px;
+}
+
+
+
+
+
+
+@media (min-width: 600px) and (max-width: 1000px){
+    .section1 img{
+    width: 250px;
+}
+.section1 h1{
+    font-size: 25px;
+}
+.section1 h4{
+    font-weight: 400;
+}
+.section1 .parent{
+    
+    flex-direction: column;
+    margin: 5px;
+}
+.section1 .parts{
+    width: 90%;
+    margin:5px auto;
+    padding: 5px;
+    border-radius: 6px;
+
+}
+.section1 .parts i{
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.section1 .parts h4{
+    color: rgb(1, 25, 86);
+    font-size: 15px;
+}
+.section1 .parts h6{
+    font-size: 13px;
+    font-weight: 400;
+}
+}
+
+
+@media (max-width: 600px){
+.main {
+    flex-direction: column;
+}
+.section1{
+    width: 100%;
+    margin-top: 15px;
+    
+}
+.section1 img{
+    width: 200px;
+}
+.section1 h1{
+    font-size: 20px;
+}
+.section1 h4{
+    font-family: "Poppins", sans-serif;
+    color: rgb(95, 103, 136);
+    font-weight: 500;
+    font-size: 15px;
+}
+.section1 .parent{
+   display: none;
+}
+
+.section2{
+    margin: 0px;
+    width: 100%;
+    text-align: center;   
+}
+.section2 .mobilereponsive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.section2 .mr2{
+    text-align: left;
+}
+
+.section2 .main_i i{
+    font-size: 20px;
+    padding: 15px;
+}
+.section2 h2{
+    margin:0px;
+    font-size: 18px;
+}
+.section2 h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+.section2 hr{
+    margin-left: 12%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 }
